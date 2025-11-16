@@ -102,27 +102,6 @@
   </div>
 </section>
 
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <video poster="" autoplay controls muted loop playsinline height="100%">
-          <source src="./static/videos/gsm_adjustx4.mp4" type="video/mp4">
-        </video>
-        <video poster="" autoplay controls muted loop playsinline height="100%">
-          <source src="./static/videos/hello_adjustx4.mp4" type="video/mp4">
-        </video>
-        <video poster="" autoplay controls muted loop playsinline height="100%">
-          <source src="./static/videos/poem_adjustx2.mp4" type="video/mp4">
-        </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -138,7 +117,7 @@
             The more tokens unmasked in parallel, the further away the string is from the true joint; this can be seen in the resulting drop in accuracy (but, increase in speed). 
           </p>
           <p>
-            In this paper we devise a way to {\em approximately} sample multiple tokens from the joint distribution in a single full-model forward pass. 
+            In this paper we devise a way to approximately sample multiple tokens from the joint distribution in a single full-model forward pass. 
             We do so by developing a new lightweight single-layer ``sampler" on top of an existing large diffusion LM. 
             One forward pass of the full model can now be followed by multiple forward passes of only this sampler layer, to yield multiple unmasked tokens. 
             Our sampler is trained to mimic exact joint sampling from the (frozen) full model. 
@@ -154,6 +133,28 @@
   </div>
 </section>
 
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">GSM8k Example</h2>
+      <video id="" autoplay muted loop playsinline height="100%" style="margin-top: -50px;">
+        <source src="./static/videos/gsm_basex1.mp4" type="video/mp4">
+      </video>
+      <video id="" autoplay muted loop playsinline height="100%" style="margin-top: -50px;">
+        <source src="./static/videos/gsm_basex4.mp4" type="video/mp4">
+      </video>
+      <video id="" autoplay muted loop playsinline height="100%" style="margin-top: -50px;">
+        <source src="./static/videos/gsm_adjustx4.mp4" type="video/mp4">
+      </video>
+  </div>
+</section>
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      </div>
+    </div>
+  </div>
+</section> -->
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
