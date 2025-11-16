@@ -208,5 +208,19 @@
   </div>
 </footer>
 
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousels = bulmaCarousel.attach('#results-carousel', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      loop: true,
+      autoplay: false,
+      pagination: true,
+      navigation: true
+    });
+  });
+</script>
+
 </body>
 </html>
